@@ -12,4 +12,9 @@ public class Controller {
 	public String print() {
 		return "Hello World";
 	}
+	
+	@GetMapping("/bye")
+	public String print2() {
+		return "Bye World";
+	}
 }

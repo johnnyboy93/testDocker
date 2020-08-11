@@ -39,6 +39,13 @@ class ControllerTest {
 		.andExpect(MockMvcResultMatchers.content().string("Hello World"));
 	}
 	
+	@Test
+	public void test2() throws Exception {
+		System.out.println(mockmvc);
+		mockmvc.perform(MockMvcRequestBuilders.get("/hi/bye")).andExpect(MockMvcResultMatchers.status().isOk())
+		.andExpect(MockMvcResultMatchers.content().string("Bye World"));
+	}
+	
 	
 
 }
