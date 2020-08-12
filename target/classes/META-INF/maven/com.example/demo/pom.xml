@@ -63,7 +63,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>dockerbs</finalName>
+		<finalName>Jenkins_Demo2</finalName>
 	</build>
 	
 
