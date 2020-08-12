@@ -1,4 +1,0 @@
-FROM openjdk:8
-EXPOSE 8080:8080
-ADD target/demo9.jar demo9.jar
-ENTRYPOINT ["java","-jar","/demo9.jar"]
