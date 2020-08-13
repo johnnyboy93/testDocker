@@ -17,4 +17,11 @@ public class Controller {
 	public String print2() {
 		return "Bye World";
 	}
+	
+	@GetMapping("/hiagain")
+	public String print3() {
+		return "hi again";
+	}
+	
+	
 }
